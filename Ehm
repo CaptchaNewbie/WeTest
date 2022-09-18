@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="styles.css" rel="stylesheet" >
+        <title>Cat Apprecation Webpage! 2!</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <h1>My updated first webpage!</h1>
+            <main>
+                <h2>Welcome!</h2>
+                    <section>
+                        <p>If you are reading this, it means that making my first webpage was a succesful operation.</p>
+                        <p>Here's a cat picture, because cats are <strong>cute</strong>. <em>Don't you think so?</em></p>
+                    </section>
+                    <figure>
+                        <a href="https://theuselessweb.com/" target="_blank"> <img src="https://tinyurl.com/36suuh5p" alt="Image of a cute kitty"></a>
+                        <figcaption>Picture from <em><a href="https://google.com" target="_blank">The Internets.</a></em></figcaption>
+                    </figure>
+                    <section>
+                        <h3>What is this cat? What is that one?</h3>
+                        <p>
+                            Pssssst! Come over here and take a seat while I tell you about cat species. <br> 
+                            To summerise quickly we have...
+                        </p>
+                        <h4>...taken straight from <em>The Internets</em> because I know nothing about cats...</h4>
+                        <ul>
+                            <li>Exotic Shorthair Cats</li>
+                            <li>Ragdoll Cats</li>
+                            <li>British Shorthair Cats</li>
+                            <li>Persian Cats</li>
+                            <li>Maine Coon Cats</li>
+                            <li>American Shorthair Cats</li>
+                            <li>Scottish Fold Cats</li>
+                            <li>...</li>
+                        </ul>
+                        <p>But if I had to rank them then it would be like this.</p>
+                        <ol>
+                            <strong><li>Any cat.</li></strong>
+                            <li>Dogs</li>
+                        </ol>
+                        <figure>
+                            <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/17638/production/_124800859_gettyimages-817514614.jpg" alt="Image of a puppy"/>
+                            <figcaption>Sorry dog people.</figcaption>
+                        </figure>
+                    </section>
+                    <section>
+                        <form>
+                            <fieldset>
+                                <legend>Are you a cat or dog person?</legend>
+                                <input type="text" name="catOrDog" placeholder="type 'cat'" required>
+                                <button type="submit">Submit</button> <br>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Are you a cat person?</legend>
+                                <label><input type="radio" id="yes" name="yesOrNo" value="yes" checked>Yes!</label> <br>
+                                <label><input type="radio" id="no" name="yesOrNo" value="no">No, I don't like cute things.</label>
+                            </fieldset>
+                            <fieldset>
+                                <legend>What animals do you like?</legend>
+                                <input type="checkbox" id="cats" name="animals" value="cats" checked> <label for="cats"> Cats</label>
+                                <label><input type="checkbox" id="dogs" name="animals" value="dogs"> Dogs</label>
+                                <input type="checkbox" id="other" name="animals" value="other"> <label for="other"> Other...</label>
+                            </fieldset>
+                        </form>
+
+                    </section>
+            </main>
+            <footer>
+                <p>No copyright! - <a href="https://www.youtube.com/channel/UC3DLP3nv4JApQ9NfpgV0XyQ">Joki</a>
+            </footer>
+    </body>
+</html>
